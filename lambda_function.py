@@ -5,6 +5,6 @@ def factorial(n):
         return n * factorial(n - 1)
 
 # Test the factorial function
-number = 5
+number = 3
 result = factorial(number)
 print(f"The factorial of {number} is: {result}")
