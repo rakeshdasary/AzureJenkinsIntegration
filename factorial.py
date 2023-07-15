@@ -8,7 +8,7 @@ def factorial(n):
 number = int(input("Enter a non-negative integer: "))
 
 # Calculate the factorial
-result = factorial(3)
+result = factorial(number)
 
 # Display the result
-print("The factorial of", 3, "is", result)
+print("The factorial of", number, "is", result)
