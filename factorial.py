@@ -6,7 +6,7 @@ def factorial(n):
         return n * factorial(n - 1)
 
 # Prompt the user for input
-number = int(input("Enter a non-negative integer: "))
+#number = int(input("Enter a non-negative integer: "))
 
 # Calculate the factorial
 result = factorial(3)
