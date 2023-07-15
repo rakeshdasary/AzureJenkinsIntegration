@@ -1,15 +1,9 @@
-#factorial function
-def factorial(n):
-    if n == 0:
-        return 1
-    else:
-        return n * factorial(n - 1)
+import json
 
-# Prompt the user for input
-#number = int(input("Enter a non-negative integer: "))
-
-# Calculate the factorial
-result = factorial(5)
-
-# Display the result
-print("The factorial of", 5, "is", result)
+def lambda_handler(event, context):
+    # TODO implement
+    return {
+        'statusCode': 200,
+        'body': json.dumps('Hello from Lambda testing!')
+    }
+ 
