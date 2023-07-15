@@ -1,9 +1,10 @@
-import json
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
 
-def lambda_handler(event, context):
-    # TODO implement
-    return {
-        'statusCode': 200,
-        'body': json.dumps('Hello from Lambda testing!')
-    }
- 
+# Test the factorial function
+number = 5
+result = factorial(number)
+print(f"The factorial of {number} is: {result}")
